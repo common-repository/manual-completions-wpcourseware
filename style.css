@@ -1,0 +1,146 @@
+#manual_completions_wpcourseware hr {
+	max-width: 90%;
+    margin-left: 0px;
+    border-top: 1px solid #62A21D;
+    margin-bottom: 20px;
+}
+.manual_completions_wpcourseware_requirements .text{
+	font-weight: 400;
+	font-size: 15px;
+}
+.manual_completions_wpcourseware_requirements .requirements {
+	font-weight: 500;
+	font-size: 16px;
+}
+.manual_completions_wpcourseware_requirements table {
+	border-collapse: collapse;
+	min-width: 40%;
+	text-align: center;
+}
+.manual_completions_wpcourseware_requirements thead {
+	background-color: #83BA39;
+}
+.manual_completions_wpcourseware_requirements table {
+	border: 1px solid #ddd;
+}
+.manual_completions_wpcourseware_requirements td{
+	padding: 18px;
+	border: 1px solid #ddd;
+}
+.manual_completions_wpcourseware_requirements th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+.manual_completions_wpcourseware_requirements .links {
+	text-decoration: none;
+	margin-top: 10px !important;
+	color: #000000;
+}
+.manual_completions_wpcourseware_requirements .buy-btn {
+	margin: 10px 0px 5px 0px !important;
+	text-transform: capitalize !important;
+	border-top: 1px solid #e6c628 !important;
+	background: -webkit-linear-gradient(top,#e6c628,#82ba39) !important;
+	padding: 7.5px 15px !important;
+	border-radius: 9px !important;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0 !important;
+	color: white !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	font-family: Arial,serif !important;
+	text-decoration: none !important;
+	vertical-align: middle !important;
+}
+#manual_completions_wpcourseware img {
+	vertical-align: middle;
+}
+#manual_completions_wpcourseware > h2 {
+	margin-bottom: 5px;
+}
+
+
+#manual_completions_wpcourseware, .manual_completions_wpcourseware {
+	padding: 30px;
+	background: white;
+	margin: 50px;
+	border-radius: 5px;
+}
+#manual_completions_wpcourseware select, #manual_completions_wpcourseware #users input {
+	width: 100%;
+	max-width: 100%;
+	height: 28px;
+	line-height: 28px;
+}
+#process_completions {
+	margin-bottom: 20px;
+}
+#manual_completions_wpcourseware_table .grassblade_table tr td {
+    background: #fdefc9 !important;
+    color: #333 !important;
+}
+#manual_completions_wpcourseware_table .grassblade_table tr td {
+    background: #fdefc9 !important;
+}
+
+#manual_completions_wpcourseware_table .grassblade_table tr[data-completed=not_completed] td {
+    background: #ffda87 !important;
+}
+
+#manual_completions_wpcourseware_table .grassblade_table tr[data-status=processed] td {
+    background: #befcb3 !important;
+}
+#manual_completions_wpcourseware_table .grassblade_table tr[data-status=processing] td {
+    background: #b0a3f8 !important;
+}
+#manual_completions_wpcourseware_table .grassblade_table tr[data-status=waiting] td {
+    background: #c3e3ff !important;
+}
+#manual_completions_wpcourseware_table .grassblade_table tr[data-status=failed] td {
+    background: #ffc3c3 !important;
+}
+#manual_completions_wpcourseware_table .grassblade_table tr[data-status=remove] td {
+	opacity: 0.1;
+}
+#manual_completions_wpcourseware_table .grassblade_table tr[data-completed=completed] td {
+    background: #befcb3 !important;
+}
+#manual_completions_wpcourseware_table .has_xapi {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	float: right;
+}
+#manual_completions_wpcourseware_table .force_completion {
+	display: none;
+	margin: 20px;
+}
+#manual_completions_wpcourseware_table span#list_count {
+    line-height: 28px;
+    padding-left: 20px;
+}
+
+/* Loader animation */
+
+#manual_completions_wpcourseware #course td:nth-child(2){
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+#gb_loading_animation {
+	position:absolute;
+	margin-right: 20px;
+}
+
+#gb_loading_animation .dashicons {
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
